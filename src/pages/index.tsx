@@ -1,7 +1,5 @@
-export default function Home() {
-  return (
-    <div>
-      <h1 className="text-4xl font-bold text-red-400">Hello world!</h1>
-    </div>
-  );
+import Home from './home';
+
+export default function Index() {
+  return <Home />;
 }

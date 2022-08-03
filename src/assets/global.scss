@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Amsterdam Four';
+  src: url('./fonts/AmsterdamFour.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  @apply font-inter;
+}
