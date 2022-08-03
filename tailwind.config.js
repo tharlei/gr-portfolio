@@ -22,6 +22,7 @@ module.exports = {
       inter: ['Inter', 'sans-serif'],
       'abril-fatface': ['Abril Fatface', 'cursive'],
       mulish: ['Mulish', 'sans-serif'],
+      amsterdam: ['Amsterdam Four', 'sans-serif'],
     },
   },
   plugins: [],
