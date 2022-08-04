@@ -1,7 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { Fonts } from '../components/Head/Fonts';
 
-export default class _Document extends Document {
+export default class NextDocument extends Document {
   render() {
     return (
       <Html>
