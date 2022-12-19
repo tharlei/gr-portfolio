@@ -4,7 +4,7 @@ import { config } from 'config';
 import styles from 'pages/home/home.module.scss';
 
 export function HomeMobile() {
-  const { company } = config;
+  const { company, portfolio } = config;
 
   return (
     <div className="lg:hidden block mt-8 text-white">
@@ -27,8 +27,8 @@ export function HomeMobile() {
           <a
             className="text-white 2xl:text-lg bg-rose-500 px-10 py-5 rounded-tl-2xl rounded-br-2xl z-50"
             target="_blank"
-            rel="noopener"
-            href="/portfolio.pdf"
+            rel="noopener noreferrer"
+            href={portfolio}
           >
             Download portfólio
           </a>

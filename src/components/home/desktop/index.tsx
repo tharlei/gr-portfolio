@@ -3,7 +3,7 @@ import { config } from 'config';
 import styles from 'pages/home/home.module.scss';
 
 export function HomeDesktop() {
-  const { company } = config;
+  const { company, portfolio } = config;
 
   return (
     <div className="hidden lg:block text-dark-900 w-7/12 px-24 pt-20 z-50 bg-gray-100">
@@ -23,8 +23,8 @@ export function HomeDesktop() {
           <a
             className="text-white 2xl:text-lg bg-rose-500 px-10 2xl:px-12 py-5 2xl:py-7 rounded-tl-2xl rounded-br-2xl"
             target="_blank"
-            rel="noopener"
-            href="/portfolio.pdf"
+            rel="noopener noreferrer"
+            href={portfolio}
           >
             Download portfólio
           </a>
