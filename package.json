@@ -1,5 +1,5 @@
 {
-  "name": "giovanna-ramaldo",
+  "name": "gr-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -24,6 +24,7 @@
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1",
+    "@next/eslint-plugin-next": "^13.0.7",
     "@types/node": "^17.0.21",
     "@types/react": "^17.0.39",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
