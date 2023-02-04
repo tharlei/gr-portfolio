@@ -2,6 +2,7 @@ import { config } from 'config';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import 'assets/global.scss';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function NextApp({ Component, pageProps }: AppProps) {
   const { company } = config;
@@ -16,6 +17,7 @@ export default function NextApp({ Component, pageProps }: AppProps) {
         <meta name="description" content={`Portfólio ${company.name}`}></meta>
       </Head>
       <Component {...pageProps} />
+      <Analytics />
     </>
   );
 }
