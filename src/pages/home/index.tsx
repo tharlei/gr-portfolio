@@ -18,11 +18,11 @@ export default function Home() {
       </Head>
       <div className="bg-gray-100 flex overflow-hidden">
         <div className="bg-dark-900 h-screen lg:w-5/12 px-8 lg:px-4">
-          <nav className="items-center justify-between mt-8 lg:mt-12 hidden lg:flex">
+          <nav className="items-center justify-between mt-4 hidden lg:flex">
             <InitialsName />
             <HomeMenu />
           </nav>
-          <div className="mt-12 lg:flex justify-center hidden">
+          <div className="lg:flex justify-center hidden">
             <div className="lg:w-[400px] 2xl:w-[500px]">
               <Image
                 src={photo}

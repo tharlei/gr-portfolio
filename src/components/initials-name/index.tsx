@@ -1,21 +1,22 @@
 import { config } from 'config';
+import logo from 'assets/logo.png';
+import Image from 'next/image';
 
 export function InitialsName() {
   const { social, company } = config;
-
-  const initials = company.name
-    .split(' ')
-    .map((word: string) => word[0])
-    .join('');
 
   return (
     <a
       href={social.linktree}
       target="_blank"
-      className="font-amsterdam text-rose-500 lg:text-2xl 2xl:text-3xl"
       rel="noreferrer"
+      className="w-24 lg:w-36"
     >
-      {initials}
+      <Image
+        src={logo}
+        alt={`Foto de ${company.name}`}
+        className="rounded-full shadow-lg z-50"
+      />
     </a>
   );
 }
