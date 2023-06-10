@@ -20,7 +20,7 @@ export function WhatsAppSocialIcon() {
     };
   }, []);
 
-  const text = encodeURI('Olá Giovanna! Podemos conversar?');
+  const text = encodeURI(social.whatsappMessage);
   const domain = screen < 1024 ? 'api' : 'web';
   const href = `https://${domain}.whatsapp.com/send?phone=${social.whatsapp}&text=${text}`;
 

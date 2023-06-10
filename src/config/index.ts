@@ -9,6 +9,7 @@ export const config = {
     linkedin: process.env.NEXT_PUBLIC_SOCIAL_LINKEDIN || '',
     linktree: process.env.NEXT_PUBLIC_SOCIAL_LINKTREE || '',
     whatsapp: process.env.NEXT_PUBLIC_SOCIAL_WHATSAPP || '',
+    whatsappMessage: process.env.NEXT_PUBLIC_SOCIAL_WHATSAPP_MESSAGE || '',
   },
   portfolio: process.env.NEXT_PUBLIC_PORTFOLIO_URL || '',
 };
