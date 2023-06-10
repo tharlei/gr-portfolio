@@ -8,6 +8,7 @@ export const config = {
     instagram: process.env.NEXT_PUBLIC_SOCIAL_INSTAGRAM || '',
     linkedin: process.env.NEXT_PUBLIC_SOCIAL_LINKEDIN || '',
     linktree: process.env.NEXT_PUBLIC_SOCIAL_LINKTREE || '',
+    whatsapp: process.env.NEXT_PUBLIC_SOCIAL_WHATSAPP || '',
   },
   portfolio: process.env.NEXT_PUBLIC_PORTFOLIO_URL || '',
 };
