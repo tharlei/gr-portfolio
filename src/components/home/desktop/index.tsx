@@ -1,6 +1,5 @@
 import { SocialIcons } from 'components/social-icons';
 import { config } from 'config';
-import styles from 'pages/home/home.module.scss';
 
 export function HomeDesktop() {
   const { company, portfolio } = config;
@@ -30,7 +29,7 @@ export function HomeDesktop() {
           </a>
           {/* <a href="">Conheça meus projetos</a> */}
         </div>
-        <SocialIcons style={styles.socialIcon} />
+        <SocialIcons />
       </div>
     </div>
   );

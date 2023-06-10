@@ -1,7 +1,6 @@
 import { InitialsName } from 'components/initials-name';
 import { SocialIcons } from 'components/social-icons';
 import { config } from 'config';
-import styles from 'pages/home/home.module.scss';
 
 export function HomeMobile() {
   const { company, portfolio } = config;
@@ -34,7 +33,7 @@ export function HomeMobile() {
           </a>
           {/* <a href="">Conheça meus projetos</a> */}
         </div>
-        <SocialIcons style={styles.socialIconMobile} />
+        <SocialIcons />
       </div>
     </div>
   );
