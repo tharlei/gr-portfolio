@@ -1,6 +1,5 @@
 import { config } from 'config';
 import { FaLinkedin, FaInstagram, FaEnvelope } from 'react-icons/fa';
-import { WhatsAppSocialIcon } from './whatsapp';
 
 export function SocialIcons() {
   const { social, company } = config;
@@ -21,13 +20,12 @@ export function SocialIcons() {
   ];
 
   return (
-    <div className="flex justify-center lg:justify-start gap-6 grid-cols-3 mt-14 social-icons">
+    <div className="flex justify-center lg:justify-start gap-6 mt-8 social-icons">
       {socialMedias.map((socialMedia, key) => (
         <a href={socialMedia.href} target="_blank" key={key} rel="noreferrer">
           {socialMedia.icon}
         </a>
       ))}
-      <WhatsAppSocialIcon />
     </div>
   );
 }

@@ -11,5 +11,4 @@ export const config = {
     whatsapp: process.env.NEXT_PUBLIC_SOCIAL_WHATSAPP || '',
     whatsappMessage: process.env.NEXT_PUBLIC_SOCIAL_WHATSAPP_MESSAGE || '',
   },
-  portfolio: process.env.NEXT_PUBLIC_PORTFOLIO_URL || '',
 };

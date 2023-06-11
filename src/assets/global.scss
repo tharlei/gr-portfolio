@@ -12,7 +12,7 @@ body {
 
 .social-icons {
   > a {
-    @apply rounded-full bg-rose-300 lg:bg-dark-900 fill-dark-900 lg:fill-gray-100;
+    @apply rounded-full bg-rose-300 lg:bg-dark-900 fill-dark-900 lg:fill-gray-100 z-40;
   }
 
   > a > svg {

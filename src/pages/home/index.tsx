@@ -16,8 +16,8 @@ export default function Home() {
       <Head>
         <title>{company.name} | Home</title>
       </Head>
-      <div className="bg-gray-100 flex overflow-hidden">
-        <div className="bg-dark-900 h-screen lg:w-5/12 px-8 lg:px-4">
+      <div className="bg-gray-100 flex">
+        <div className="bg-dark-900 h-screen lg:w-5/12 px-8 lg:px-4 z-10">
           <nav className="items-center justify-between mt-4 hidden lg:flex">
             <InitialsName />
             <HomeMenu />
